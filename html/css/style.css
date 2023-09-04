@@ -1,0 +1,280 @@
+/*clase para el tamaño de letras, grosor y color */
+
+.lunes-negrita{
+    font-weight: 900;
+    font-size: 20px;
+    color: red;
+}
+
+/* clase para el tipo de letra y color */
+
+.lunes-cursiva{
+    font-style: italic;
+    color: red;
+}
+
+/*clase para el tamaño de letras, grosor y color */
+
+.martes-negrita{
+    font-weight: 900;
+    font-size: 20px;
+    color: blue;
+}
+
+/* clase para el tipo de letra y color */
+
+.martes-cursiva{
+    font-style: italic;
+    color: blue;
+}
+
+/*clase para el tamaño de letras, grosor y color */
+
+.miercoles-negrita{
+    font-weight: 900;
+    font-size: 20px;
+    color: green;
+}
+
+
+/* clase para el tipo de letra y color */
+
+.miercoles-cursiva{
+    font-style: italic;
+    color: green;
+}
+
+/*clase para el tamaño de letras, grosor y color */
+
+.jueves-negrita{
+    font-weight: 900;
+    font-size: 20px;
+    color: gold;
+}
+
+
+/* clase para el tipo de letra y color */
+
+.jueves-cursiva{
+    font-style: italic;
+    color: gold;
+}
+
+/*clase para el tamaño de letras, grosor y color */
+
+.viernes-negrita{
+    font-weight: 900;
+    font-size: 20px;
+    color:violet;
+}
+
+
+/* clase para el tipo de letra y color */
+
+.viernes-cursiva{
+    font-style: italic;
+    color: violet;
+}
+
+
+/* clase para el tamaño de letra */
+
+.horarios{
+    font-size: 30px;
+}
+
+/* clase para el tamaño de letra */
+
+.dias-turnos{
+    font-size: 30px;
+}
+
+
+/* clase para el margen de la tabla, sombreado y darle formato */
+
+.tabla-horarios{
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 20px;
+    padding: 20px 15px;
+}
+
+.pagina-principal{
+    background-color: yellowgreen;
+    width: 100%;
+    height: 200px;
+}
+
+
+.footer{
+    background-color: aqua;
+    width: 100%;
+    height: 30px;
+}
+
+
+.formulario{
+    border: 10px solid gray;
+}
+
+
+.header-flex{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(240, 195, 100);
+    text-decoration: none;
+}
+
+
+.caja-1{
+    background-color: red;
+    
+ 
+}
+
+.caja-2{
+    background-color: blue;
+    
+   
+}
+
+.caja-3{
+
+    
+    background-color: blueviolet;
+
+}
+
+
+.caja-4{
+
+    
+    background-color: yellow;
+    
+}
+
+.caja-5{
+
+    
+    background-color: black;
+    
+}
+
+.caja-6{
+
+    
+    background-color: palevioletred;
+    
+}
+
+.caja-7{
+
+    
+    background-color: orange;
+  
+}
+
+.caja-8{
+
+    
+    background-color: grey;
+    
+}
+
+.caja-9{
+
+    
+    background-color: green;
+    
+}
+
+.caja-general{
+    
+    display: grid;
+    gap: 5px;
+
+}    
+
+
+@media (min-width: 320px) {
+    
+    .caja-general{
+
+        width: 200px;
+        height: 1000px;
+        grid-template-columns: 1fr;
+       
+    }
+
+}
+
+
+@media (min-width: 321px) and (max-width: 768px) {
+    
+    .caja-general{
+
+        width: 300px;
+        height: 300px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+    }
+
+}
+    
+
+
+@media (min-width: 769px) {
+    
+    .caja-general{
+
+        width: 800px;
+        height: 300px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1f 1f;
+    }
+
+}
+
+.logo{
+    width: 200px;
+}
+
+.sm-link{
+    color: palevioletred;
+}
+
+.sm-link.active{
+    color: green;
+}
+
+.navbar-nav .sm-link.active{
+
+    color: palevioletred;
+}
+
+.sm-carousel-inner{
+
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+
+.sm-img-carousel{
+
+    height: 250px;
+    margin: 0 auto;
+}
+
+
+.sm-footer{
+    color: palevioletred;
+}
+
+.sm-contacto{
+    list-style: none;
+    color: palevioletred;
+}
